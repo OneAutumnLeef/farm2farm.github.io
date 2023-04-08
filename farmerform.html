@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form for Farmers</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+    }
+
+    header {
+      background-color: #21c87a;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    form {
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+      margin: 20px auto;
+      max-width: 500px;
+      padding: 20px;
+    }
+
+    label {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      border: none;
+      border-radius: 3px;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+      font-size: 16px;
+      margin-bottom: 20px;
+      padding: 10px;
+      width: 100%;
+    }
+
+    select {
+      border: none;
+      border-radius: 3px;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+      font-size: 16px;
+      margin-bottom: 20px;
+      padding: 10px;
+      width: 100%;
+    }
+
+    input[type="submit"] {
+      background-color: #333;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+      cursor: pointer;
+      font-size: 18px;
+      padding: 10px 20px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #21c87a;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Registration form for Farmers</h1>
+    <p>Please fill out the form below to register.</p>
+  </header>
+  <form>
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+     
+    <label for="phone">Phone</label>
+    <input type="text" id="number" name="number" required>
+   
+    <label for="state">State</label>
+    <input type="text" id="name" name="name" required>
+    <label for="name">City</label>
+    <input type="text" id="name" name="name" required>
+  <form action="/upload" method="post" enctype="multipart/form-data">
+      <label for="file">Aadhar:</label>
+      <input type="file" id="file" name="file">
+      <br><br>
+     <input type="submit" value="Register">
+</form>
+ 
+
+    
+</form>
+</body>
+</html>
