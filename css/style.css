@@ -1,30 +1,4 @@
-/**
- * WEBSITE: https://themefisher.com
- * TWITTER: https://twitter.com/themefisher
- * FACEBOOK: https://www.facebook.com/themefisher
- * GITHUB: https://github.com/themefisher/
- */
 
-/*=== MEDIA QUERY ===*/ /*-----------------------------
- CSS INDEXING
-* --------------------------------------
-* 01.GLOBAL CSS STYLE
-* 02.TYPOGRAPHY CSS STYLE
-* 03.BUTTONS STYLE
-* 04.HOMEPAGE CSS STYLE
-    -LOGO CSS
-    -MENU CSS
-    -BACKGROUND
-* 05.FEATURES CSS STYLE
-* 06.SERVICE CSS STYLE
-* 07.ABOUT CSS STYLE
-* 08.PRICING CSS STYLE
-* 09.TESTIMONIAL STYLE
-* 10.LATEST BLOG CSS STYLE
-* 11.CONTACT CSS STYLE
-* 12.FOOTER CSS STYLE
-* ----------------------------------------
-*/
 @import url("https://fonts.googleapis.com/css?family=Muli:300,400,500,700,900");
 html {
   font-family: sans-serif;
